@@ -84,5 +84,41 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* INFO SECTION */
+.info-section {
+    background-color: #F9FaF8;
+    padding: 45px 150px;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    flex-basis: 120px;
+    font-size: 14px;
+    gap: 8px;
+   text-align: center;
+}
+
+.info-card div {
+    border: #3882F6 solid;
+    height: 130px;
+    width: 130px;
+    border-radius: 6px;
 
 }
